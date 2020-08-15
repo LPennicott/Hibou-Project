@@ -1,0 +1,69 @@
+
+<CreateIndicium>
+    <IntegratorTxID>12345678</IntegratorTxID>
+    <Rate>
+        <FromZIPCode>90405</FromZIPCode>
+        <ToCountry>CN</ToCountry>
+        <Amount>10</Amount>
+        <ServiceType>US-PMI</ServiceType>
+        <DeliverDays>1-1</DeliverDays>
+        <WeightLb>1</WeightLb>
+        <WeightOz>15</WeightOz>
+        <PackageType>Package</PackageType>
+        <ShipDate>2020-08-20</ShipDate>
+        <InsuredValue>100.00</InsuredValue>
+        <DeclaredValue>10</DeclaredValue>
+        <RectangularShaped>false</RectangularShaped>
+        <AddOns>
+            <AddOnV11>
+                <Amount>1.16</Amount>
+                <AddOnType>US-A-INS</AddOnType>
+                <AddOnDescription>string</AddOnDescription>
+                <MissingData>string</MissingData>
+            </AddOnV11>
+        </AddOns>
+    </Rate>
+    <From>
+        <FullName>Person Billiam</FullName>
+        <Address1>12959 CORAL TREE PL</Address1>
+        <Address2>Ste 1000</Address2>
+        <City>Santa Monica</City>
+        <State>CA</State>
+        <ZIPCode>90405</ZIPCode>
+        <Country>US</Country>
+    </From>
+    <To>
+        <FullName>GEOFF ANTON</FullName>
+        <Company>STAMPS.COM</Company>
+        <Address1>12959 CORAL TREE PL</Address1>
+        <City>Guangzhou</City>
+        <State/>
+        <ZIPCode/>
+        <DPB>59</DPB>
+        <CheckDigit>6</CheckDigit>
+        <Province>GZ</Province>
+        <PostalCode>430000</PostalCode>
+        <Country>CN</Country>
+    </To>
+    <Customs>
+        <ContentType>Returned Goods</ContentType>
+        <Comments>stuff</Comments>
+        <LicenseNumber>123456a</LicenseNumber>
+        <CertificateNumber>654321a</CertificateNumber>
+        <InvoiceNumber>159s</InvoiceNumber>
+        <OtherDescribe>153l</OtherDescribe>
+        <CustomsLines>
+            <CustomsLine>
+                <Description>Toilet Paper</Description>
+                <Quantity>1</Quantity>
+                <Value>5.00</Value>
+                <WeightLb>1</WeightLb>
+                <WeightOz>15</WeightOz>
+                <HSTariffNumber>610200</HSTariffNumber>
+                <CountryOfOrigin>CN</CountryOfOrigin>
+                <sku>string</sku>
+            </CustomsLine>
+        </CustomsLines>
+        <CustomsSigner>string</CustomsSigner>
+    </Customs>
+</CreateIndicium>
